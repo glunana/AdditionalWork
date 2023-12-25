@@ -47,7 +47,7 @@ initial_list.insert_at_end()
 print("Початковий список:")
 initial_list.display()
 
-initial_list.add_elements_on_even_positions()
+initial_list.addElementsOnEvenPositions()
 
 print("Список після додавання елементів на парні позиції:")
 initial_list.display()
