@@ -28,7 +28,7 @@ class List:
             current = new_node.next
             print(f"Додано новий елемент на парну позицію: {new_node.data}")
 
-    def insert_at_end(self):
+    def insert(self):
         num_elements = int(input("Введіть кількість елементів для початкового списку: "))
         for _ in range(num_elements):
             data = input("Введіть елемент: ")
@@ -42,7 +42,7 @@ class List:
                 self.tail = new_node
 
 initial_list = List()
-initial_list.insert_at_end()
+initial_list.insert()
 
 print("Початковий список:")
 initial_list.display()
